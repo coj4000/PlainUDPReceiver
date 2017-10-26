@@ -23,5 +23,10 @@ namespace ModelLib
             Color = color;
             RegNo = regNo;
         }
+        public override string ToString()
+        {
+            return "Model: " + Model + ", Color: " + Color + ", Regnumber: " + RegNo;
+        }
+        
     }
 }

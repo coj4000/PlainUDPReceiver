@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{B795A72E-8FD0-4D25-82CB-59C706EE14D0}</ProjectGuid>
+    <ProjectGuid>{EC1E2900-EC83-447F-BE79-214FAA61374B}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>PlainUDPSender</RootNamespace>
-    <AssemblyName>PlainUDPSender</AssemblyName>
+    <RootNamespace>XmlUDPSender</RootNamespace>
+    <AssemblyName>XmlUDPSender</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -49,6 +49,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ModelLib\ModelLib.csproj">
